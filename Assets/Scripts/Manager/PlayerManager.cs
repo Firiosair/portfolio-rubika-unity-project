@@ -10,8 +10,8 @@ public class PlayerManager : MonoBehaviour
     public int maxPlayerHealth = 100;
     public int playerMana = 100;
     public int maxPlayerMana = 100;
-    public float playerXP = 0;
-    public float playerLevel = 0;
+    public int playerXP = 0;
+    public int playerLevel = 0;
     public Dictionary<int, int> xpAssociator = new Dictionary<int, int>(){{0,0},{1,100},{2,250},{3,500},{4,800},{5,1200},{6,1700},{7,2300},{8,3000},{9,4000},{10,5000}};
     void Awake()
     {
